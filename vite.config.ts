@@ -4,6 +4,7 @@ import { templateCompilerOptions } from '@tresjs/core'
 import path from 'path'
 
 export default defineConfig({
+  base: './',
   plugins: [
     vue({
       ...templateCompilerOptions

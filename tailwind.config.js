@@ -9,12 +9,17 @@ export default {
           neon: '#00f3ff',
           grid: '#1e1b4b',
           bg: '#020617',
-          success: '#10b981'
+          success: '#10b981',
+          light: {
+            bg: '#f8fafc',
+            grid: '#e2e8f0',
+            neon: '#0ea5e9',
+          }
         }
       },
       fontFamily: {
-        game: ['"Press Start 2P"', 'system-ui'],
-        sans: ['Inter', 'sans-serif']
+        display: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif']
       }
     },
   },
