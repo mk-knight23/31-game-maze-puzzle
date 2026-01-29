@@ -63,6 +63,13 @@ Deployed to GitHub Pages via automated CI/CD workflows. Optimized for 60fps stab
 
 ---
 
+### Live Demo
+- GitHub Pages: <https://mk-knight23.github.io/37-Maze-Puzzle/>
+- Vercel: [Deploy your own](https://vercel.com/new)
+- Netlify: [Deploy your own](https://app.netlify.com/start)
+
+---
+
 ## 📝 Design Notes (V2)
 
 ### Intentional Quirk: The Star Rating System
