@@ -80,3 +80,20 @@ You can backtrack, but there's no "undo last move" button. If you trap yourself 
 
 ### What I Chose NOT to Build
 No procedural difficulty that adapts to your skill. The maze sizes are fixed (11/15/21). Adaptive difficulty would track your win rate and adjust maze complexity. I didn't build that because predictable difficulty is honest. Sometimes you want an easy maze. Sometimes you want punishment. The player chooses, not the algorithm.
+
+## 🎉 Additional Features (V3)
+
+Two focused additions to aid navigation:
+
+### Directional Hint System
+**Why added**: In larger mazes (21x21), it's easy to lose track of which direction leads toward the exit.
+
+**What changed**: Added a subtle arrow indicator at the top of the screen pointing generally toward the exit. It updates every few seconds, not in real-time—you still need to navigate the maze yourself. The hint is intentionally vague; it won't show you the path, just the general direction.
+
+### Completion Rate Tracking
+**Why added**: The game tracks best times, but not how many mazes you've actually completed.
+
+**What changed**: Added a completion counter showing total mazes finished per difficulty level. Seeing "Easy: 47 completed" gives a sense of accumulated progress, even if your best time hasn't improved lately.
+
+### Intentionally Rejected: Full Minimap
+I considered adding an overhead minimap showing the entire maze layout. Rejected because it trivializes the exploration. Half the challenge is building a mental map of where you've been. A minimap would turn the game into "follow the dots" instead of genuine navigation. Getting lost is the point.
